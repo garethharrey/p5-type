@@ -53,7 +53,7 @@ function setup() {
   myAnimatedText.textTyped.push(myAnimatedText.addText('CODE!'));
 
   // read in the font to opentype.js
-  opentype.load('data/FreeSans.otf', function (err, f) {
+  opentype.load('https://github.com/opensourcedesign/fonts/blob/master/gnu-freefont_freesans/FreeSans.otf', function (err, f) {
     if (err) {
       print('Font could not be loaded: ' + err);
     } else {
